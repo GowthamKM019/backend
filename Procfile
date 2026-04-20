@@ -1,1 +1,1 @@
-web: gunicorn code-cobra.wsgi
+gunicorn backend.wsgi
